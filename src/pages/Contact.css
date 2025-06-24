@@ -1,0 +1,197 @@
+/* contact.css */
+
+/* .contact-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-info {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.contact-info p {
+  margin: 8px 0;
+  font-size: 16px;
+  color:  #191919;
+}
+
+.contact-container h2 {
+  margin-bottom: 8px;
+  color: #191919;
+}
+
+.contact-container p {
+  margin-bottom: 20px;
+  color:  #191919;
+  font-size: 15px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color:  #191919;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 5px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.contact-form textarea {
+  min-height: 100px;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: rgb(172, 124, 60);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.contact-card{
+  padding: 40px 20px;
+  background-color:rgb(221, 170, 191);
+  color: #191919;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 30px auto;  
+} */
+
+.contact-card {
+  padding: 40px 20px;
+  background-color: rgb(221, 170, 191);
+  color: #191919;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.contact-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f1f0f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-info {
+  background-color: #d1d0d0;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.contact-info p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #191919;
+}
+
+.contact-container h2 {
+  margin-bottom: 8px;
+  color: #191919;
+  font-size: 20px;
+}
+
+.contact-container p {
+  margin-bottom: 20px;
+  color: #191919;
+  font-size: 15px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #191919;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.contact-form textarea {
+  min-height: 100px;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: rgb(172, 124, 60);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .contact-card {
+    margin: 20px 10px;
+    padding: 20px 10px;
+  }
+
+  .contact-container {
+    padding: 15px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+  }
+}

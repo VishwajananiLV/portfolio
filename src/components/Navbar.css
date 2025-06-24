@@ -1,0 +1,117 @@
+/* Navbar.css */
+
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(221, 170, 191); 
+  padding: 5px 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-left h2 {
+  margin: 0;
+  color: #172a44;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.navbar-right ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right a {
+  text-decoration: none;
+  color: #172a44;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-right a:hover {
+  color: #0077b6; /* vibrant blue on hover */
+/* } */ 
+/* navbar.css
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(221, 170, 191); 
+  padding: 5px 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  flex-wrap: wrap;
+}
+
+.navbar-left h2 {
+  margin: 0;
+  color: #172a44;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.navbar-right ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.navbar-right a {
+  text-decoration: none;
+  color: #0f1b2e;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-right a:hover {
+  color: #0670a9; /* vibrant blue on hover */
+/* } */ 
+
+/* Navbar.css */
+
+
+/* src/components/Navbar.css */
+
+.custom-navbar {
+  background-color: #c1dbf8; /* Pink */
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+  min-height: 30px;
+}
+
+.custom-navbar .navbar-brand {
+  font-size: 2.0rem;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+
+.custom-navbar .nav-link-custom {
+  padding: 8px 12px;
+  color: #0f1b2e !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link-custom:hover {
+  color: #0670a9 !important;
+}
+
+.custom-navbar .container {
+  padding-left: 40px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

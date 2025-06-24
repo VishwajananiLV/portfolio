@@ -1,0 +1,182 @@
+/* about.css */
+
+/* .about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  line-height: 1.6;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-section {
+  margin-bottom: 30px;
+}
+
+.about-section h3 {
+  color: #444;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.skills-list li img {
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
+}
+.about {
+  padding: 40px 20px;
+  background-color:rgb(221, 170, 191);
+  color: #29292d;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #29292d;
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card p{
+    text-align: justify;
+} */
+
+/* .card h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #34495e;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card li {
+  font-size: 16px;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+} */
+
+.about {
+  padding: 40px 20px;
+  background-color: rgb(221, 170, 191);
+  color: #29292d;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about h1 {
+  text-align: center;
+  font-size: 2.25rem;
+  margin-bottom: 30px;
+  color: #29292d;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Card Styling */
+.card {
+  background-color: #ffffff;
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #1d1d1d;
+}
+
+.card p {
+  /* text-align: justify; */
+  font-size: 1rem;
+  justify-content: center;
+}
+
+/* Skills list with icons */
+.card ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.card ul li {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  gap: 8px;
+  background-color: #f0f0f0;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
